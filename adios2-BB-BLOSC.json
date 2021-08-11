@@ -1,0 +1,27 @@
+{
+   "adios2":{
+      "engine":{
+         "type":"BP4",
+         "parameters":{
+            "InitialBufferSize":"32Gb",
+            "BufferGrowthFactor":"1.1",
+            "Profile":"On",
+            "AggregatorRatio":"0",
+            "BurstBufferDrain":"Off",
+            "BurstBufferPath":"/mnt/bb/benjha",
+            "BurstBufferVerbose":"1"
+         }
+      },
+      "dataset":{
+         "operators":[
+            {
+               "type":"blosc",
+               "parameters":{
+                  "clevel":"7",
+                  "doshuffle":"BLOSC_BITSHUFFLE"
+               }
+            }
+         ]
+      }
+   }
+}

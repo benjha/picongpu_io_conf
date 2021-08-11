@@ -1,0 +1,16 @@
+{
+   "adios2":{
+      "engine":{
+         "type":"BP4",
+         "parameters":{
+            "InitialBufferSize":"32Gb",
+            "BufferGrowthFactor":"1.1",
+            "Profile":"On",
+            "AggregatorRatio":"1",
+            "BurstBufferDrain":"Off",
+            "BurstBufferPath":"/mnt/bb/benjha",
+            "BurstBufferVerbose":"1"
+         }
+      }
+   }
+}
